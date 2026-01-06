@@ -37,7 +37,7 @@ build/
 # =========================
 /target/
 !.mvn/wrapper/maven-wrapper.jar
-
+*.jar
 # =========================
 # Spring Boot
 # =========================
