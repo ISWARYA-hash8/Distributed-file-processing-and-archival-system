@@ -9,12 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/auth")
-    @CrossOrigin(
-        origins = "${frontend.url}",
-        allowedHeaders = "*",
-        methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE},
-        allowCredentials = "true"
-)
+    
 public class AuthController {
 
     private final AuthService authService;
